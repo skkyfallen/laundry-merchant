@@ -56,7 +56,7 @@ form {
 }
 .continueButton-2 {
   position: relative;
-  top: 500px;
+  top: 200px;
   height: 50px;
   width: 478px;
   border-radius: 3px;
@@ -71,16 +71,29 @@ form {
   text-align: center;
   color: #ffffff;
 }
-.upload-file{
-    position: relative;
-    top:100px;
-    width:300px;
-    position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
+.upload-file {
+  position: relative;
+  top: 120px;
+  font-size: 13px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #01112c;
+  padding:70px;
+  border:3px dashed GREY;
+  border-radius:4px;
+  margin-bottom: 20px;
 }
-.upload-file:valid:after {
-    content: attr(data-file-name);
-    margin-left: 8px;
-  }
+.cac-label{
+  z-index: 1;
+  position: relative;
+  top:110px;
+  left:-100px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
